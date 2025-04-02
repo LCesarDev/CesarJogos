@@ -1,26 +1,28 @@
 import React from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
 function HeaderHome() {
+    const navigate = useNavigate();
 
     return(
         <header className="header-home">
-        <img className="logo" src="/Ativo 5.png" alt="Logo da empresa" />
-        
-        <nav className="nav-menu" aria-label="Menu principal">
-           
+            <img className="logo" src="/Ativo 5.png" alt="Logo da empresa" />
             
-        <button className="home-button">Home</button><ul className="nav-links">
-                <li><button className="nav-button">Jogos</button></li>
-                <li><button className="nav-button">Loja</button></li>
-                <li><button className="nav-button">Sobre</button></li>
-                <li><button className="nav-button">Contato</button></li>
-            </ul>
+            <nav className="nav-menu" aria-label="Menu principal">
+                <button className="home-button" onClick={()=> navigate("/")}>Home</button>
+                
+                <ul className="nav-links">
+                    <li><button className="nav-button" onClick={()=> navigate("/Jogos")}>Jogos</button></li>
+                    <li><button className="nav-button" onClick={()=> navigate("/Loja")}>Loja</button></li>
+                    <li><button className="nav-button" onClick={()=> navigate("/Sobre")}>Sobre</button></li>
+                    <li><button className="nav-button" onClick={()=> navigate("/Contato")}>Contato</button></li>
+                </ul>
 
-            <ul className="auth-buttons">
-                <li><button className="auth-button">Cadastrar</button></li>
-                <li><button className="auth-button">Entrar</button></li>
-            </ul>
-        </nav>
+                <ul className="auth-buttons">
+                    <li><button className="auth-button">Cadastrar</button></li>
+                    <li><button className="auth-button">Entrar</button></li>
+                </ul>
+            </nav>
     </header>
     );
 

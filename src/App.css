@@ -6,7 +6,7 @@
 
 body{
   font-family: "Lilita One", sans-serif;
-  margin: 0;
+  /*margin: 0;*/
   display: flex;                  /* Adiciona Flexbox para a centralização */
   flex-direction: column;         /* Organiza os itens em coluna */
   justify-content: center;        /* Centraliza o conteúdo verticalmente */
@@ -16,12 +16,19 @@ body{
 }
 
 .App {
-  display: flex;              
+  display: flex;             
   flex-direction: column;
-  justify-content: center;    
-  align-items: center;        
-  height: 100vh;              
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   margin: 0;
+}
+
+.nav-menu
+{
+  margin-top: 1cm;
+  display: flex;
+  align-items: center;
 }
 
 .header-home{
@@ -36,21 +43,20 @@ body{
   z-index: 1000;
   align-items: center;
   flex-direction: row;
-  flex-wrap: wrap;
   animation: App 1s ease-out;
 }
 
 .home-button{
 
-   background-color: rgb(248, 248, 248);
+   background-color: white;
     padding: 6px;
     cursor: pointer;
     font-size: 20px;
     color: black;
     width: 150px;
-    margin-right: 5cm;
+    margin-right: 3cm;
     border: 2px solid white;
-    opacity: 0;
+    opacity: 1;
 }
 
 .home-button:hover{
@@ -69,13 +75,13 @@ body{
 
 .logo{
  padding: 20px;
- margin-right: 3cm;
+ margin-right: 4cm;
  width: 100px;
  height: auto;
 }
 
 .MainHome{
-  margin-top: 0;
+  margin-top: 3cm;
   padding-top: 0;
 }
 
@@ -193,25 +199,20 @@ border: 5px solid black;
   padding: 0;
   gap: 1px;
 }
+
 .auth-buttons li:first-child{
-  margin-left: 2cm;
+  margin-left: 3cm;
 }
 .auth-buttons li button{
-  padding: 15px;
+  padding: 1px;
   font-size: 16px;
   background-color: #f16c07;
-  width: 150px;
+  width: 100px;
   border: 2px solid #f16c07;
   
 }
 .auth-buttons li button:hover{
   color: white;
   border: 2px solid white;
-}
-
-.nav-menu
-{
-  display: flex;
-  align-items: center;
 }
  
