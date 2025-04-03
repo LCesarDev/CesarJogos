@@ -47,7 +47,6 @@ body{
 }
 
 .home-button{
-
    background-color: white;
     padding: 6px;
     cursor: pointer;
@@ -70,6 +69,8 @@ body{
   justify-content: center;
   align-items: center;
   padding-top: 100px;
+  margin-top: 3cm;
+  padding-top: 0;
 }
 
 
@@ -78,11 +79,6 @@ body{
  margin-right: 4cm;
  width: 100px;
  height: auto;
-}
-
-.MainHome{
-  margin-top: 3cm;
-  padding-top: 0;
 }
 
 .TituloHome_Animation {
@@ -150,7 +146,6 @@ body{
   text-align: center;
   animation: JogarButtonMain 3s ease-out;
   color: black;
-
 }
 
 .JogarButtonMain:hover{
@@ -173,6 +168,7 @@ border: 5px solid black;
     opacity: 1;
   }
 }
+
 .nav-links{
   display: flex;
   list-style: none;
@@ -203,6 +199,7 @@ border: 5px solid black;
 .auth-buttons li:first-child{
   margin-left: 3cm;
 }
+
 .auth-buttons li button{
   padding: 1px;
   font-size: 16px;
@@ -211,6 +208,7 @@ border: 5px solid black;
   border: 2px solid #f16c07;
   
 }
+
 .auth-buttons li button:hover{
   color: white;
   border: 2px solid white;
