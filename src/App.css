@@ -12,7 +12,7 @@ body{
   justify-content: center;        /* Centraliza o conteúdo verticalmente */
   align-items: center;            /* Centraliza o conteúdo horizontalmente */
   height: 100vh;
-  background-color: #f16c07;
+  background-color: black;
 }
 
 .App {
@@ -26,13 +26,13 @@ body{
 
 .nav-menu
 {
-  margin-top: 1cm;
+  margin-top: 2rem;
   display: flex;
   align-items: center;
 }
 
 .header-home{
-  background-color: black;
+
   padding: 1%;
   color: black;
   position: fixed;
@@ -53,14 +53,14 @@ body{
     font-size: 20px;
     color: black;
     width: 150px;
-    margin-right: 3cm;
-    border: 2px solid white;
+    margin-right: 10rem;
+    border: 2px solid black;
     opacity: 1;
 }
 
 .home-button:hover{
-    background-color: #f16c07;
-    border: 2px solid white;
+  color: rgb(82, 82, 82);
+  border: 2px solid white;
 }
 
 .MainHome{
@@ -69,21 +69,20 @@ body{
   justify-content: center;
   align-items: center;
   padding-top: 100px;
-  margin-top: 3cm;
+  margin-top: 3rem;
   padding-top: 0;
 }
 
 
 .logo{
  padding: 20px;
- margin-right: 4cm;
- width: 100px;
+ margin-right: 20rem;
+ width: 200px;
  height: auto;
 }
 
 .TituloHome_Animation {
-  /*margin-top: 4cm;*/
-  color: black;
+  color: white;
   font-size: 80px;
   display: flex;               
   justify-content: center;    
@@ -95,7 +94,7 @@ body{
 
 .TextHome_Animation {
   font-size: 20px;
-  color: black;
+  color: white;
   display: flex;               
   justify-content: center;     
   align-items: center;         
@@ -135,7 +134,7 @@ body{
 
 .JogarButtonMain{
   background-color: rgb(248, 248, 248);
-  border: 5px solid black;
+  border: 5px solid rgb(15, 15, 15);
   margin-top: 20px;
   padding: 20px;
   cursor: pointer;
@@ -149,8 +148,8 @@ body{
 }
 
 .JogarButtonMain:hover{
-background-color: #f16c07;
-border: 5px solid black;
+  color: rgb(82, 82, 82);
+  border: 5px solid white;
 
 }
 
@@ -174,17 +173,18 @@ border: 5px solid black;
   list-style: none;
   padding: 0;
   width: 100%;
+  color: black;
 }
 
 
 .nav-links li button{
   padding: auto;
   font-size: 20px;
-  border: 2px solid white;
+  border: 2px solid rgb(15, 15, 15);
 }
 
 .nav-links li button:hover{
-  background-color: #f16c07;
+  color: rgb(82, 82, 82);
   border: 2px solid white;
 }
 
@@ -197,20 +197,20 @@ border: 5px solid black;
 }
 
 .auth-buttons li:first-child{
-  margin-left: 3cm;
+  margin-left: 10rem;
 }
 
 .auth-buttons li button{
   padding: 1px;
   font-size: 16px;
-  background-color: #f16c07;
+  background-color: white;
   width: 100px;
-  border: 2px solid #f16c07;
+  border: 2px solid rgb(15, 15, 15);
   
 }
 
 .auth-buttons li button:hover{
-  color: white;
+  color: rgb(82, 82, 82);
   border: 2px solid white;
 }
  
