@@ -16,9 +16,7 @@ const Jogos = () =>{
 
         return (
             <main className="container">
-                <div className="banner">
-                    <img src={jogoSelecionado.Imagem} alt={jogoSelecionado.nome} className="banner-img" />
-                    <div className="info">
+                <div className="info">
                         <h2>{jogoSelecionado.nome}</h2>
                         <p>
                         {jogoSelecionado.descricao.split('\n').map((linha, index) => (
@@ -31,7 +29,11 @@ const Jogos = () =>{
                         <p className="preco">{jogoSelecionado.preco}</p>
                         <button className="comprar-btn" onClick={() => window.open(jogoSelecionado.link, "_blank")}>Obter</button>
                     </div>
+                <div className="banner">  
+                    
+                    <img src={jogoSelecionado.Imagem} alt={jogoSelecionado.nome} className="banner-img" />
                 </div>
+                
 
                 <div className="lista-jogos">
                     {jogos.map((jogo, index) => (

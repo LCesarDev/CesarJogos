@@ -1,103 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
-    display: flex;
-    background-color:rgb(15, 15, 15);
-    color: white;
-    justify-content: center;
-    align-items: center;
-    min-height: auto;
-    padding: 5rem;
-    margin-top: 10rem;
-    width: 150vh;
-    height: 55vh;   
-    animation: container 1.5s ease-out;
-  }
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  margin-top: 10rem;
+  width: 100%; 
+  animation: container 1.5s ease-out;
+  gap: 15px;
+  max-width: 1200px;
+  width: 100%;;
+  max-height: 450px;
+  height: 100%;
+  background-color:rgb(15, 15, 15);
+}
 
 
-  .banner {
-    flex: 1;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-left: 20rem;
-  }
+
+.banner {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: auto;
+  min-width: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.banner-img {
+  width: 500px;
+  height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.info {
+  background: rgba(119, 119, 119, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  min-width: 30%;
+}
+
+.preco {
+  color: yellow;
+}
+
+.comprar-btn {
+  background: blue;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.lista-jogos {
+  width: auto;
   
+}
+
+.ListFont{
+ color: white;
+}
+
+.jogo-btn {
+  display: flex;
+  align-items: center;
+  background: rgba(119, 119, 119, 0.2);
+  padding: 5px;
+  border-radius: 8px;
+  width: 20rem;
+  margin-bottom: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.jogo-btn:hover {
+  background: darkgray;
+}
+
+.jogo-btn.selecionado {
+  border: 2px solid blue;
+}
+
+.jogo-img {
+  object-fit: contain;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin-right: 60px;
+}
+
+@keyframes container{
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+  }
+
   .banner-img {
     width: 100%;
-    height: 500px;
-    object-fit: contain;
-    border-radius: 10px;
+    height: auto;
   }
-  
+
   .info {
-    min-height: 150px;
-    position: absolute;
-    left: 15rem;
-    background: rgba(119, 119, 119, 0.2);
-    padding: 30px;
-    border-radius: 10px;
-    align-items: start;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
   }
-  
-  .preco {
-    color: yellow;
-  }
-  
-  .comprar-btn {
-    background: blue;
-    padding: 8px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    color: white;
-  }
-  
-  .lista-jogos {
-    width: auto;
-    margin-left: 1rem;
-  }
-  
-  .ListFont{
-   color: white;
-  }
-  
-  .jogo-btn {
-    display: flex;
-    align-items: center;
-    background: rgba(119, 119, 119, 0.2);
-    padding: 10px;
-    border-radius: 8px;
-    width: 20rem;
-    margin-bottom: 10px;
-    border: none;
-    cursor: pointer;
-  }
-
-  
-  .jogo-btn:hover {
-    background: darkgray;
-  }
-  
-  .jogo-btn.selecionado {
-    border: 2px solid blue;
-  }
-  
-  .jogo-img {
-    object-fit: contain;
-    width: 50px;
-    height: 50px;
-    border-radius: 5px;
-    margin-right: 60px;
-  }
-
-  @keyframes container{
-    0% {
-      opacity: 0;
-    }
-  
-    100% {
-      opacity: 1;
-    }
-  }
+}
