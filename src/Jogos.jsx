@@ -15,6 +15,8 @@ const Jogos = () =>{
         const [jogoSelecionado, setJogoSelecionado] = useState(jogos[0]);
 
         return (
+            <div>
+                <h1 className="titulojogos">Jogos</h1>
             <main className="container">
                 <div className="info">
                         <h2>{jogoSelecionado.nome}</h2>
@@ -50,6 +52,7 @@ const Jogos = () =>{
                 </div>
 
             </main>
+            </div>
     );
 };
 

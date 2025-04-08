@@ -26,6 +26,7 @@ body{
 
 .nav-menu
 {
+  flex: 0.8;
   margin-top: 2rem;
   display: flex;
   align-items: center;
@@ -43,8 +44,9 @@ body{
   z-index: 1000;
   align-items: center;
   flex-direction: row;
+  justify-content: space-between;
   animation: App 1s ease-out;
-}
+  }
 
 .home-button{
    background-color: white;
@@ -53,7 +55,6 @@ body{
     font-size: 20px;
     color: black;
     width: 150px;
-    margin-right: 10rem;
     border: 2px solid black;
     opacity: 1;
 }
@@ -76,7 +77,6 @@ body{
 
 .logo{
  padding: 20px;
- margin-right: 20rem;
  width: 200px;
  height: auto;
 }
@@ -196,8 +196,8 @@ body{
   gap: 1px;
 }
 
-.auth-buttons li:first-child{
-  margin-left: 10rem;
+.auth-buttons li:last-child{
+  margin-right: 1rem;
 }
 
 .auth-buttons li button{

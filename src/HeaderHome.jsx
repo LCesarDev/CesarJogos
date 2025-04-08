@@ -6,7 +6,7 @@ function HeaderHome() {
 
     return(
         <header className="header-home">
-            <img className="logo" src="/Ativo 4.png" alt="Logo da empresa" />
+            <img className="logo" src="/Ativo 4.png" alt="Logo da empresa" onClick={()=> navigate("/")} />
             
             <nav className="nav-menu" aria-label="Menu principal">
                 <button className="home-button" onClick={()=> navigate("/")}>Home</button>
