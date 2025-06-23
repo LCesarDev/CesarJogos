@@ -1,0 +1,216 @@
+/*.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}*/
+
+body{
+  font-family: "Lilita One", sans-serif;
+  /*margin: 0;*/
+  display: flex;                  /* Adiciona Flexbox para a centralização */
+  flex-direction: column;         /* Organiza os itens em coluna */
+  justify-content: center;        /* Centraliza o conteúdo verticalmente */
+  align-items: center;            /* Centraliza o conteúdo horizontalmente */
+  min-height: 100vh;
+  background-color: black;
+}
+
+.App {
+  display: flex;             
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  margin: 0;
+}
+
+.nav-menu
+{
+  flex: 0.8;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.header-home{
+
+  padding: 1%;
+  color: black;
+  position: fixed;
+  display: flex;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  animation: App 1s ease-out;
+  }
+
+.home-button{
+   background-color: white;
+    padding: 6px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    width: 150px;
+    border: 2px solid black;
+    opacity: 1;
+}
+
+.home-button:hover{
+  color: rgb(82, 82, 82);
+  border: 2px solid white;
+}
+
+.MainHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-top: 3rem;
+  padding-top: 0;
+}
+
+
+.logo{
+ padding: 20px;
+ width: 200px;
+ height: auto;
+}
+
+.TituloHome_Animation {
+  color: white;
+  font-size: 80px;
+  display: flex;               
+  justify-content: center;    
+  align-items: center;         
+  text-align: center;          
+  margin: 0;
+  animation: TituloHome_Animation 1s ease-out;              
+}
+
+.TextHome_Animation {
+  font-size: 20px;
+  color: white;
+  display: flex;               
+  justify-content: center;     
+  align-items: center;         
+  text-align: center;         
+  margin: 0;
+  animation: TextHome_Animation 1.5s ease-out;            
+}
+
+@keyframes App{
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes TituloHome_Animation{
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes TextHome_Animation{
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+.JogarButtonMain{
+  background-color: rgb(248, 248, 248);
+  border: 5px solid rgb(15, 15, 15);
+  margin-top: 20px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 200px;
+  justify-content: center;     
+  align-items: center;         
+  text-align: center;
+  animation: JogarButtonMain 3s ease-out;
+  color: black;
+}
+
+.JogarButtonMain:hover{
+  color: rgb(82, 82, 82);
+  border: 5px solid white;
+
+}
+
+@keyframes JogarButtonMain{
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  color: black;
+}
+
+
+.nav-links li button{
+  padding: auto;
+  font-size: 20px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+.nav-links li button:hover{
+  color: rgb(82, 82, 82);
+  border: 2px solid white;
+}
+
+/*Buttons CADASTRAR & LOGIN*/
+.auth-buttons{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 1px;
+}
+
+.auth-buttons li:last-child{
+  margin-right: 1rem;
+}
+
+.auth-buttons li button{
+  padding: 1px;
+  font-size: 16px;
+  background-color: white;
+  width: 100px;
+  border: 2px solid rgb(15, 15, 15);
+  
+}
+
+.auth-buttons li button:hover{
+  color: rgb(82, 82, 82);
+  border: 2px solid white;
+}
+ 
