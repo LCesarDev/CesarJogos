@@ -1,11 +1,18 @@
 import React from "react";
+import './Contato.css'
 
 const Contato = () =>{
     return (
 
-        <div>
-            <h1>Pagina de Contato</h1>
-            <p>Bem-bem vindo a pagina de Contato</p>
+        <div className="Content-Contato">
+            <h1 className="Title-Contato">Contato</h1>
+            <div className="Box-Contato">
+                <p className=" txt-Contato">Lucas César Nonato de Oliveira <br/><br/>
+                E-mail: lcesar.gamedev@outlook.com<br/><br/>
+                Tel: (31) 97175-6204
+                    
+                </p>
+            </div>
         </div>
     );
 };

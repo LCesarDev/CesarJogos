@@ -1,11 +1,12 @@
 import React from "react";
+import "./Loja.css";
 
 const Loja = () =>{
     return (
 
-        <div>
-            <h1>Pagina de Loja</h1>
-            <p>Bem-bem vindo a pagina de Loja</p>
+        <div className="LojaContent">
+            <h1 className="LojaTitulo">Loja</h1>
+            <p className="Loja-txt">Bem-bem vindo a Loja</p>
         </div>
     );
 };

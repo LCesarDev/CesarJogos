@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 
-  .content{
+  .LojaContent{
     margin-top: 170px;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
     animation: sobre_animation 1.5s ease-out;
   }
 
-  .titulo{
+  .LojaTitulo{
     color: white;
     font-size: 60px;
     display: flex;               
@@ -21,27 +21,18 @@
     align-items: center;         
     text-align: center;          
     margin: 0;
-    margin-bottom: 30px;
-  }
-  
-  .caixatxt{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    background-color: rgba(119, 119, 119, 0.2);
-    padding: 30px;
+    margin-bottom: 10rem;
   }
 
-  .txt{
+  .Loja-txt{
     padding: 5px;
     height: 50%;
-    width: 70%;
+    width: 100%;
     font-size: 20x;
     color: white;
     display: flex;               
     justify-content: center;     
-    align-items: center;         
-    text-align: justify;         
+    align-items: center;              
     margin: 0;
   }
 

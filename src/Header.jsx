@@ -1,7 +1,8 @@
 import React from "react";
-import { Navigate, useNavigate } from "react-router-dom";
+import {useNavigate } from "react-router-dom";
+import './Header.css';
 
-function HeaderHome() {
+function Header() {
     const navigate = useNavigate();
 
     return(
@@ -28,4 +29,4 @@ function HeaderHome() {
 
 }
 
-export default HeaderHome;
+export default Header;

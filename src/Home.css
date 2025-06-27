@@ -1,0 +1,96 @@
+.HomeContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-top: 20rem;
+  margin-bottom: 10rem;
+  padding-top: 0;
+}
+
+.TitleHome_Animation {
+  color: white;
+  font-size: 80px;
+  display: flex;               
+  justify-content: center;    
+  align-items: center;         
+  text-align: center;          
+  margin: 0;
+  animation: TitleHome_Animation 1s ease-out;              
+}
+
+.TextHome_Animation {
+  font-size: 20px;
+  color: white;
+  display: flex;               
+  justify-content: center;     
+  align-items: center;         
+  text-align: center;         
+  margin: 0;
+  animation: TextHome_Animation 1.5s ease-out;            
+}
+
+.Jogar-HomeButton{
+  background-color: rgb(248, 248, 248);
+  border: 5px solid rgb(15, 15, 15);
+  margin-top: 20px;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 200px;
+  justify-content: center;     
+  align-items: center;         
+  text-align: center;
+  animation: FadeIn 3s ease-out;
+  color: black;
+}
+
+.Jogar-HomeButton:hover{
+  color: rgb(82, 82, 82);
+  border: 5px solid white;
+}
+
+@keyframes FadeIn{
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes App{
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes TitleHome_Animation{
+  0% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes TextHome_Animation{
+  0% {
+    transform: translateY(1000px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
+}

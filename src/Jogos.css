@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.container {
+.container { 
   display: flex;
   color: white;
   justify-content: center;
@@ -29,7 +29,7 @@
     text-align: center;          
     margin: 0;
     margin-bottom: 15px;
-    margin-top: 10rem;
+    margin-top: 13rem;
 }
 
 
