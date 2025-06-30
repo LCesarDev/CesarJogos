@@ -4,16 +4,17 @@
     box-sizing: border-box;
   }
 
-  .LojaContent{
+  .Loja-Content{
     margin-top: 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: sobre_animation 1.5s ease-out;
+  
   }
 
-  .LojaTitulo{
+  .Loja-Title{
     color: white;
     font-size: 60px;
     display: flex;               
@@ -21,10 +22,10 @@
     align-items: center;         
     text-align: center;          
     margin: 0;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
   }
 
-  .Loja-txt{
+  /*.Loja-txt{
     padding: 5px;
     height: 50%;
     width: 100%;
@@ -34,7 +35,55 @@
     justify-content: center;     
     align-items: center;              
     margin: 0;
+  }*/
+
+  .store-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-bottom: 100px;
+    z-index: 1;
   }
+
+
+  .store-infobox{
+  background: rgba(119, 119, 119, 0.2);
+  padding: 30px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  gap: 50%;
+}
+
+ .store-name{
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .store-image{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+ 
+
+  .store-pay{
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
 
   @keyframes sobre_animation{
     0% {
