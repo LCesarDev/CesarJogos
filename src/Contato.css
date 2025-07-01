@@ -28,22 +28,36 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    background-color: rgba(119, 119, 119, 0.2);
     padding: 30px;
     width: 100%;
+    flex-direction: column;
+    background: rgba(119, 119, 119, 0.2);
+    border-radius: 10px;
+    min-width: 50%;
+    gap: 50%;
+    color: white;
   }
 
-  .txt-Contato{
-    padding: 5px;
-    height: 50%;
-    width: 70%;
+  .name-contato{
+    margin-bottom: 3%;
     font-size: 20px;
-    color: white;
-    display: flex;               
-    justify-content: center;     
-    align-items: center;                
-    margin: 0;
   }
+  
+  .email-contato{
+    display: flex;
+    align-items: center;
+  }
+  .email-contato p{
+    margin-left: 10px;
+  }
+
+  .tel-contato{
+    display: flex;
+  }
+  .tel-contato p{
+    margin-left: 10px;
+  }
+ 
 
   @keyframes sobre_animation{
     0% {

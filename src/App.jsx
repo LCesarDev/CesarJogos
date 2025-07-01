@@ -8,6 +8,8 @@ import Loja from './Loja.jsx';
 import Sobre from './Sobre.jsx';
 import Contato from './Contato.jsx';
 import Footer from './Footer.jsx';
+import Cadastrar from './Cadastrar.jsx';
+import Entrar from './Entrar.jsx';
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
               <Route path='/Loja' element={<Loja />} />
               <Route path='/Sobre' element={<Sobre />} />
               <Route path='/Contato' element={<Contato/>} />
+              <Route path='/Cadastrar' element={<Cadastrar/>} />
+              <Route path='/Entrar' element={<Entrar/>} />
             </Routes>
 
             <Footer/>

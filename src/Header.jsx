@@ -18,10 +18,9 @@ function Header() {
                     <li><button className="nav-button" onClick={()=> navigate("/Sobre")}>Sobre</button></li>
                     <li><button className="nav-button" onClick={()=> navigate("/Contato")}>Contato</button></li>
                 </ul>
-
                 <ul className="auth-buttons">
-                    <li><button className="auth-button">Cadastrar</button></li>
-                    <li><button className="auth-button">Entrar</button></li>
+                    <li><button className="auth-button" onClick={()=> navigate("/Cadastrar")}>Cadastrar</button></li>
+                    <li><button className="auth-button" onClick={()=> navigate("/Entrar")}>Entrar</button></li>
                 </ul>
             </nav>
     </header>

@@ -7,11 +7,19 @@ const Contato = () =>{
         <div className="Content-Contato">
             <h1 className="Title-Contato">Contato</h1>
             <div className="Box-Contato">
-                <p className=" txt-Contato">Lucas César Nonato de Oliveira <br/><br/>
-                E-mail: lcesar.gamedev@outlook.com<br/><br/>
-                Tel: (31) 97175-6204
-                    
+                <p className="name-contato"> 
+                    Lucas César Nonato de Oliveira
                 </p>
+
+                <div className="email-contato">E-mail:
+                    <p>Lcesar.gamedev@outlook.com</p>
+                </div>
+                
+                <div className="tel-contato">Tel:
+                    <p>(31) 97175-6204</p>
+                </div> 
+                    
+                
             </div>
         </div>
     );
