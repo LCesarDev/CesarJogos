@@ -1,17 +1,19 @@
-import React, {useEffect, useState} from "react";
+/*import React, {useEffect, useState} from "react";*/ // Para demonstração do meu conhecimento em consumo de API/JSON, mantive o código comentado.
+import React from "react";
 import "./Loja.css";
+import items from "./StoreItens.js";
 
 
 const Loja = () =>{
 
-    const [items, setItems] = useState([]);
+    /*const [items, setItems] = useState([]);
 
     useEffect(() =>{
         fetch("http://localhost:3001/itens")
         .then((res) => res.json())
         .then((data) => setItems(data))
         .catch((err) => console.error("Error: Dados não carregados", err));
-    },[]);
+    },[]);*/
 
 
     return (
