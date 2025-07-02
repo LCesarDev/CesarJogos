@@ -57,6 +57,13 @@
   .tel-contato p{
     margin-left: 10px;
   }
+
+  .linkedin-contato{
+    display: flex;
+  }
+  .linkedin-contato p{
+    margin-left: 10px;
+  }
  
 
   @keyframes sobre_animation{

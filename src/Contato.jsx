@@ -11,6 +11,10 @@ const Contato = () =>{
                     Lucas César Nonato de Oliveira
                 </p>
 
+                <div className="linkedin-contato">Linkedin: 
+                    <p>linkedin.com/in/lucas-césar-a45949236</p>
+                </div> 
+                    
                 <div className="email-contato">E-mail:
                     <p>Lcesar.gamedev@outlook.com</p>
                 </div>
@@ -18,7 +22,8 @@ const Contato = () =>{
                 <div className="tel-contato">Tel:
                     <p>(31) 97175-6204</p>
                 </div> 
-                    
+
+                
                 
             </div>
         </div>
