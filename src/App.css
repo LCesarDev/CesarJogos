@@ -6,11 +6,10 @@
 
 body{
   font-family: "Lilita One", sans-serif;
-  /*margin: 0;*/
-  display: flex;                  /* Adiciona Flexbox para a centralização */
-  flex-direction: column;         /* Organiza os itens em coluna */
-  justify-content: center;        /* Centraliza o conteúdo verticalmente */
-  align-items: center;            /* Centraliza o conteúdo horizontalmente */
+  line-height: 2;      
+  flex-direction: column;         
+  justify-content: center;        
+  align-items: center;            
   min-height: 100vh;
   background-color: black;
 }
