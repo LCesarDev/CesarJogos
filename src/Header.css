@@ -121,10 +121,14 @@
     color: black;
 
   }
+
+
   .nav-links li button{
     font-size: 14px;
     width: 100px;
     padding: 4px;
+    background-color: white;
+    border: 2px solid black; 
 
   }
   .auth-buttons li button {
@@ -136,26 +140,6 @@
     color: black;
   }
 
-  .HomeContent {
-    padding-top: 180px;
-    margin-top: 20%;
-  }
-
-  .TitleHome_Animation {
-    font-size: 50px;
-    padding: 0 10px;
-  }
-
-  .TextHome_Animation {
-    font-size: 18px;
-    padding: 0 10px;
-  }
-
-  .Jogar-HomeButton {
-    width: 180px;
-    font-size: 18px;
-    padding: 15px;
-  }
 }
 
 @media (max-width: 480px) {
@@ -172,8 +156,10 @@
 
   }
   .nav-links li button{
-     width: 100%;
+    width: 100%;
     font-size: 14px;
+    background-color: white;
+    border: 2px solid black; 
   }
 
    .auth-buttons {
@@ -189,25 +175,5 @@
     background-color: white;
     border: 2px solid rgb(15, 15, 15);
     color: black;
-  }
-
-  .HomeContent {
-    padding-top: 200px;
-    margin-top: 30%;
-    padding: 10px;
-  }
-
-  .TitleHome_Animation {
-    font-size: 36px;
-  }
-
-  .TextHome_Animation {
-    font-size: 16px;
-  }
-
-  .Jogar-HomeButton {
-    width: 100%;
-    font-size: 16px;
-    padding: 12px;
   }
 }
