@@ -80,3 +80,98 @@
   border: 2px solid white;
 }
  
+
+
+@media (max-width: 768px) {
+  .header-home {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .logo {
+    order: 1;
+    width: 120px;
+    padding: 5px;
+  }
+
+  .nav-menu {
+    order: 2;
+    margin-top: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .auth-buttons {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .home-button,
+  .nav-links li button,
+  .auth-buttons li button {
+    font-size: 14px;
+    width: 100px;
+    padding: 4px;
+  }
+
+  .HomeContent {
+    padding-top: 180px;
+    margin-top: 20%;
+  }
+
+  .TitleHome_Animation {
+    font-size: 50px;
+    padding: 0 10px;
+  }
+
+  .TextHome_Animation {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .Jogar-HomeButton {
+    width: 180px;
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    width: 100px;
+  }
+
+  .home-button,
+  .nav-links li button,
+  .auth-buttons li button {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .HomeContent {
+    padding-top: 200px;
+    margin-top: 30%;
+    padding: 10px;
+  }
+
+  .TitleHome_Animation {
+    font-size: 36px;
+  }
+
+  .TextHome_Animation {
+    font-size: 16px;
+  }
+
+  .Jogar-HomeButton {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+}

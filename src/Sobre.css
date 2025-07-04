@@ -54,3 +54,54 @@
       opacity: 1;
     }
   }
+
+  @media (max-width: 1024px) {
+  .titulo {
+    font-size: 48px;
+    margin-top: 14%;
+    margin-bottom: 25px;
+  }
+
+  .caixatxt {
+    padding: 25px;
+  }
+
+  .txt {
+    width: 80%;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 36px;
+    margin-top: 20%;
+    margin-bottom: 20px;
+  }
+
+  .caixatxt {
+    padding: 20px;
+  }
+
+  .txt {
+    width: 90%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .titulo {
+    font-size: 28px;
+    margin-top: 20%;
+    margin-bottom: 15px;
+  }
+
+  .caixatxt {
+    padding: 15px;
+  }
+
+  .txt {
+    width: 95%;
+    font-size: 14px;
+  }
+}

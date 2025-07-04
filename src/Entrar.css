@@ -70,3 +70,24 @@
 .entrar-cadastrar:hover{
     color: rgb(119, 119, 119)
 }
+
+@media (max-width: 1024px){
+    .entrar-title{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 768px){
+    .entrar-title{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 480px){
+    .entrar-title{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
+}

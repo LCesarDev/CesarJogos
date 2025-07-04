@@ -94,3 +94,73 @@
   }
 
 }
+
+
+@media (max-width: 1024px) {
+  .HomeContent {
+    margin-top: 25%;
+    padding: 15px;
+  }
+
+  .TitleHome_Animation {
+    font-size: 60px;
+    padding: 0 15px;
+  }
+
+  .TextHome_Animation {
+    font-size: 20px;
+    padding: 0 15px;
+  }
+
+  .Jogar-HomeButton {
+    width: 200px;
+    font-size: 20px;
+    padding: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .HomeContent {
+    margin-top: 20%;
+    padding: 20px;
+  }
+
+  .TitleHome_Animation {
+    font-size: 50px;
+    padding: 0 10px;
+  }
+
+  .TextHome_Animation {
+    font-size: 18px;
+    padding: 0 10px;
+  }
+
+  .Jogar-HomeButton {
+    width: 180px;
+    font-size: 18px;
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .HomeContent {
+    margin-top: 30%;
+    padding: 10px;
+  }
+
+  .TitleHome_Animation {
+    font-size: 36px;
+    padding: 0 10px;
+  }
+
+  .TextHome_Animation {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .Jogar-HomeButton {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px;
+  }
+}

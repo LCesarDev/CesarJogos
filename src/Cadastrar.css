@@ -63,3 +63,24 @@
 .cadastrar-login:hover{
     color: rgb(119, 119, 119)
 }
+
+@media (max-width: 1024px){
+    .cadastrar-title{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 768px){
+    .cadastrar-title{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width: 480px){
+    .cadastrar-title{
+        margin-top: 50%;
+        margin-left: 10%;
+    }
+}
