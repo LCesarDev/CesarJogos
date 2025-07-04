@@ -3,9 +3,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
   margin-top: 30%;
   margin-bottom: 10%;
+  padding-top: 0;
 }
 
 .TitleHome_Animation {
@@ -15,7 +15,6 @@
   justify-content: center;    
   align-items: center;         
   text-align: center;          
-  margin: 0;
   animation: TitleHome_Animation 1s ease-out;              
 }
 
@@ -97,12 +96,12 @@
 
 @media (max-width: 1024px) {
   .HomeContent {
-    margin-top: 25%;
     padding: 15px;
   }
 
   .TitleHome_Animation {
-    margin-top: 30%;
+    margin-bottom: 1%;
+    margin-top: 5%;
     font-size: 60px;
     padding: 0 15px;
   }
@@ -121,12 +120,12 @@
 
 @media (max-width: 768px) {
   .HomeContent {
-    margin-top: 100px;
     padding: 20px;
   }
 
   .TitleHome_Animation {
-    margin-top: 30%;
+    margin-top: 5%;
+    margin-bottom: 1%;
     font-size: 50px;
     padding: 0 10px;
   }
@@ -145,12 +144,12 @@
 
 @media (max-width: 480px) {
   .HomeContent {
-    margin-top: 200px;
     padding: 10px;
   }
 
   .TitleHome_Animation {
-    margin-top: 20%;
+    margin-top: 5%;
+    margin-bottom: 1%;
     margin: 200px;
     font-size: 36px;
     padding: 0 10px;
