@@ -15,7 +15,6 @@ const Loja = () =>{
         .catch((err) => console.error("Error: Dados não carregados", err));
     },[]);*/
 
-
     return (
         
         <div className="Loja-Content">

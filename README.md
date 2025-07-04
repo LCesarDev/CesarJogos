@@ -17,6 +17,7 @@ Portfólio pessoal para apresentação de projetos como desenvolvedor front-end 
 - Consumo de API com JSON e Simulação de API com arquivo JavaScript (mock de dados dinâmicos)
 - GitHub
 - Deploy com Vercel
+- Media Query
 
 ---
 
