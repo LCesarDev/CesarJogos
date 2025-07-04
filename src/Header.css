@@ -119,14 +119,14 @@
     background-color: white;
     border: 2px solid black; 
     color: black;
-
   }
 
+  .nav-links{
+    color: black;
+  }
 
   .nav-links li button{
     font-size: 14px;
-    width: 100px;
-    padding: 4px;
     background-color: white;
     border: 2px solid black; 
 
@@ -155,8 +155,12 @@
     color: black;
 
   }
+
+  .nav-links{
+    color: black;
+  }
+
   .nav-links li button{
-    width: 100%;
     font-size: 14px;
     background-color: white;
     border: 2px solid black; 
