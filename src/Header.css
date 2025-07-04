@@ -24,13 +24,12 @@
 
 .home-button{
    background-color: white;
+    border: 2px solid black; 
+   color: black;
     padding: 6px;
     cursor: pointer;
     font-size: 20px;
-    color: black;
-    width: 150px;
-    border: 2px solid black;
-    opacity: 1;
+    width: 150px;  
 }
 
 .home-button:hover{
@@ -71,8 +70,8 @@
   padding: 1px;
   font-size: 16px;
   background-color: white;
-  width: 100px;
   border: 2px solid rgb(15, 15, 15);
+  width: 100px;
 }
 
 .auth-buttons li button:hover{
@@ -108,17 +107,33 @@
   .auth-buttons {
     order: 3;
     display: flex;
-    flex-direction: column;
     align-items: center;
     gap: 10px;
+
   }
 
-  .home-button,
-  .nav-links li button,
+  .home-button{
+    font-size: 14px;
+    width: 100px;
+    padding: 4px;
+    background-color: white;
+    border: 2px solid black; 
+    color: black;
+
+  }
+  .nav-links li button{
+    font-size: 14px;
+    width: 100px;
+    padding: 4px;
+
+  }
   .auth-buttons li button {
     font-size: 14px;
     width: 100px;
     padding: 4px;
+    background-color: white;
+    border: 2px solid rgb(15, 15, 15);
+    color: black;
   }
 
   .HomeContent {
@@ -148,11 +163,32 @@
     width: 100px;
   }
 
-  .home-button,
-  .nav-links li button,
+  .home-button{
+    width: 100%;
+    font-size: 14px;
+    background-color: white;
+    border: 2px solid black; 
+    color: black;
+
+  }
+  .nav-links li button{
+     width: 100%;
+    font-size: 14px;
+  }
+
+   .auth-buttons {
+    order: 3;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+  }
   .auth-buttons li button {
     width: 100%;
     font-size: 14px;
+    background-color: white;
+    border: 2px solid rgb(15, 15, 15);
+    color: black;
   }
 
   .HomeContent {

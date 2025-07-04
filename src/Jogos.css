@@ -11,7 +11,7 @@
   align-items: center;
   padding: 5rem;
   width: 100%; 
-  animation: container 1.5s ease-out;
+  animation: Pg-jogosAnim 1.5s ease-out;
   gap: 15px;
   max-width: 1200px;
   max-height: 450px;
@@ -111,7 +111,7 @@
   margin-right: 60px;
 }
 
-@keyframes container{
+@keyframes Pg-jogosAnim{
   0% {
     opacity: 0;
   }
