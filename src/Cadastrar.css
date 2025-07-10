@@ -76,6 +76,10 @@
         margin-top: 50%;
         margin-left: 10%;
     }
+
+    .cadastrar-bnt{
+        width: 45%;
+    }
 }
 
 @media (max-width: 480px){

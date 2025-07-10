@@ -6,10 +6,10 @@ const Jogos = () =>{
     
 
         const jogos = [
-            { nome: "Dango Kart", Imagem: "/DangoKart.png", Logo: "/Logo_DangoKart.png", descricao: "Salve o mundo de forma RADICAL", preco: "R$ 52,99", link: "https://cesarjogos.itch.io/dango-kart"},
-            { nome: "Desespero", Imagem: "/Desespero.png", Logo: "/Desespero.png", descricao: "Você consegue parar Annielise", preco: "Grátis", link: "https://cesarjogos.itch.io/desespero" },
-            { nome: "Rodas Pesadas", Imagem: "/RodasPesadas.png", Logo: "/RodasPesadas.png", descricao: "Se revolte pilotando um transporte publico irado", preco: "Grátis", link: "https://gatocalvojogos.itch.io/rodas-pesadas"},
-            { nome: "Flesh N' Bunnies", Imagem: "/Bunnies.png", Logo: "/Bunnies.gif", descricao: "Destrua todos os animais satânicos \n que rondam esse celeiro.", preco: "Grátis", link: "https://gatocalvojogos.itch.io/flesh-n-bunnies"}
+            { nome: "Dango Kart", Imagem: "/DangoKart.webp", Logo: "/Logo_DangoKart.webp", descricao: "Salve o mundo de forma RADICAL", preco: "R$ 52,99", link: "https://cesarjogos.itch.io/dango-kart"},
+            { nome: "Desespero", Imagem: "/Desespero.webp", Logo: "/Desespero.webp", descricao: "Você consegue parar Annielise", preco: "Grátis", link: "https://cesarjogos.itch.io/desespero" },
+            { nome: "Rodas Pesadas", Imagem: "/RodasPesadas.webp", Logo: "/RodasPesadas.webp", descricao: "Se revolte pilotando um transporte publico irado", preco: "Grátis", link: "https://gatocalvojogos.itch.io/rodas-pesadas"},
+            { nome: "Flesh N' Bunnies", Imagem: "/Bunnies.webp", Logo: "/Bunnies.gif", descricao: "Destrua todos os animais satânicos \n que rondam esse celeiro.", preco: "Grátis", link: "https://gatocalvojogos.itch.io/flesh-n-bunnies"}
         ];
 
         const [jogoSelecionado, setJogoSelecionado] = useState(jogos[0]);

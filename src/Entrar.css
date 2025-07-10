@@ -83,6 +83,10 @@
         margin-top: 50%;
         margin-left: 10%;
     }
+
+    .entrar-bnt{
+        width: 40%;
+    }
 }
 
 @media (max-width: 480px){

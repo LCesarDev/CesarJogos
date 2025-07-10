@@ -21,7 +21,7 @@ const Loja = () =>{
             <h1 className="Loja-Title">Loja</h1>
             {items.map(item =>(
                 <div key={item.id} className="store-style">
-                    <img src="/gear.png" alt="gearIcon" className="store-gearicon"></img>
+                    <img src="/gear.webp" alt="gearIcon" className="store-gearicon"></img>
                     <div className="store-infobox">
                         <div className="store-name"> 
                             <h2>{item.name}</h2>

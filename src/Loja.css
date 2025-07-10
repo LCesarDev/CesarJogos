@@ -147,11 +147,12 @@
 
   .store-infobox {
     padding: 15px;
-    max-width: 70%;
+    max-width: 20px;
+    font-size: 12px;
   }
 
   .store-image {
-    width: 35%;
+    width: 25%;
   }
 
   .store-name button {
