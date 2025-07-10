@@ -49,6 +49,16 @@
   border: 5px solid white;
 }
 
+.dangogif{
+  position: fixed;
+  width: 0%;
+  animation: DangoDrive 5s ease-out;
+  animation-delay: 1s;
+  z-index: 1000;
+}
+
+
+
 @keyframes FadeIn{
   0% {
     opacity: 0;
@@ -90,7 +100,17 @@
   100% {
     transform: translateY(0);
   }
+}
 
+@keyframes DangoDrive{
+    0% {
+    width: 100px;
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(800px);
+    width: 100px;
+  }
 }
 
 @media (max-width: 768px) {
